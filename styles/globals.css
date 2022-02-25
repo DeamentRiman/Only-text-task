@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 300;
+  src: local url(../fonts/Gilroy-Thin.woff2), url(../fonts/Gilroy-Thin.woff);
+  color: #000000;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  src: local url(../fonts/Gilroy-Medium.woff2), url(../fonts/Gilroy-Medium.woff);
+  color: #000000;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  src: local url(../fonts/Gilroy-Regular.woff2), url(../fonts/Gilroy-Regular.woff2);
+  color: #000000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: 'Gilroy', 'Helvetica' , sans-serif;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 100%;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid brown; */
+}
